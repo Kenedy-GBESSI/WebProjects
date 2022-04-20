@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+    background-color:bisque;
+}
+p{
+    position:absolute;
+    top:0px;
+    font-family:sans-serif;
+    font-size:20px;
+    margin:5px;
+}

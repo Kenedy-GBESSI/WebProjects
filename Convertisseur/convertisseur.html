@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="convertisseur.css">
+    <title>Convertisseur</title>
+</head>
+<body>
+  <div id="body">
+      <div id="wrapp">
+           <p class="first-phrase">Convertisseur de distances</p>
+           <div id="bars">
+                 <div class="a-convertir">
+                     <input type="number" name="a-convertir" id="a-convertir" value="0">
+                     <select name="distance-selector1" id="distance-selector1">
+                         <option value="km" selected>Kilomètres</option>
+                         <option value="hm">Hectomètres</option>
+                         <option value="dam">Decamètres</option>
+                         <option value="m">Mètres</option>
+                         <option value="dm">Décimètres</option>
+                         <option value="cm">Centimètres</option>
+                         <option value="mm">Millimètres</option>
+                     </select>
+                 </div>
+                 <div id="triangle"></div>
+                 <div class="convertisseur">
+                    <div id="display-value">0</div>
+                    <select name="distance-selector2" id="distance-selector2">
+                        <option value="km">Kilomètres</option>
+                        <option value="hm">Hectomètres</option>
+                        <option value="dam">Decamètres</option>
+                        <option value="m" selected>Mètres</option>
+                        <option value="dm">Décimètres</option>
+                        <option value="cm">Centimètres</option>
+                        <option value="mm">Millimètres</option>
+                    </select>
+                 </div>
+           </div>
+           <button type="submit" id="btn-conv">Convertir</button>
+      </div>
+  </div>
+<script src="convertisseur.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+* *::after *::before {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#all{
+    position:relative;
+    top: 100px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+}
+#grille{
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    grid-column-gap:5px;
+    grid-row-gap: 5px;
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom:30px;
+}
+#currentJoueur{
+    color:mediumspringgreen;
+}
